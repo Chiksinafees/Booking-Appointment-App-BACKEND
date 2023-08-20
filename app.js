@@ -19,7 +19,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/user", bookingRoutes);
 
-sequelize2.sync()
+sequelize2
+  .sync()
   .then((res) => {
     console.log(res);
     app.listen(3000);
