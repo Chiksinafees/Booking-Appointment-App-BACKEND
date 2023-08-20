@@ -33,7 +33,6 @@ exports.getAllUsers = async (req, res, next) => {
 
 exports.deleteUser = async (req, res, next) => {
   const prodId = req.params.id;
-  console.log("id", prodId);
 
   try {
     await Appointment.destroy({
