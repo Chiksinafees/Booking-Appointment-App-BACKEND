@@ -1,4 +1,3 @@
-
 const Appointment = require("../models/appointment");
 
 exports.insertUser = async (req, res, next) => {

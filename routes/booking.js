@@ -1,4 +1,3 @@
-
 const express = require("express");
 const bookingController = require("../controllers/booking");
 
