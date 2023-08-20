@@ -1,5 +1,4 @@
 const Sequalize = require("sequelize");
-
 const sequelize2 = require("../util/dataBase");
 
 const Appointment = sequelize2.define("user", {

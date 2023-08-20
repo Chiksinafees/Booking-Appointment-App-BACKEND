@@ -1,6 +1,7 @@
 const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
+
 const sequelize2 = require("./util/dataBase");
 
 var cors = require("cors");
