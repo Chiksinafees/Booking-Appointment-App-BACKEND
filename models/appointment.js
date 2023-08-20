@@ -19,4 +19,5 @@ const Appointment = sequelize2.define("user", {
   },
 });
 
+
 module.exports = Appointment;
